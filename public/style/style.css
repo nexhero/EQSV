@@ -1,0 +1,51 @@
+body{
+    background-color: #212123;
+    color:#f2f0e5;
+}
+
+.nav ul{
+    list-style: none;
+    list-style-position: right;
+}
+.nav ul li{
+    display:inline
+}
+.nav a{
+    text-decoration: none;
+    color:#e5ceb4;
+}
+.nav a:hover{
+    color:#b8b5b9;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box-center{
+    text-align: center;
+}
+.card{
+    margin: auto;
+    width:60%;
+    grid-template-columns: dauto auto auto;
+    grid-gap: 50px;
+}
+.card .grid-item{
+    /* margin-left: 50px; */
+    /* margin-right:50px; */
+}
+.card-header{
+    height:150px;
+    width: 150px;
+    text-align:center;
+    background-color: #b45252;
+    font-size: 64px;
+    border-radius: 40px;
+    margin: auto;
+    line-height:150px ;
+
+}
+.card-content{
+    text-align: center;
+    font-size:18px;
+}

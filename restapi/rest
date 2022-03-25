@@ -1,0 +1,38 @@
+:server = http://localhost:8080
+:v1 = :server/v1
+
+#get front page
+
+GET :server
+
+# get country list
+
+GET :v1/get/countries
+
+# get places list
+
+GET :v1/get/places
+
+# get earthquakes bases on a specific place
+GET :v1/by/placeid/11
+
+# show earthquakes by year
+
+GET :v1/by/date/2020
+
+# show earthquakes by month
+GET :v1/by/date/2021/11
+
+# show earthquakes by day
+GET :v1/by/date/2022/1/5
+
+# show earthquakes between two richter scale
+
+GET :v1/by/richter/7/8
+
+# get the last record
+
+GET :v1/get/last
+
+#summary data
+GET :v1/get/summary
